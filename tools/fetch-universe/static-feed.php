@@ -82,11 +82,6 @@ return function() {
     'https://lab.civicrm.org/partners/civicoop/civicrm-dev-docker' => 'docker/civicoop-civicrm-dev-docker',
     'https://lab.civicrm.org/ufundo/docker-project-template' => 'docker/ufundo-project-template',
 
-    // Drupal Modules
-    'https://git.drupalcode.org/project/civicrm_entity' => 'drupal-module',
-    'https://github.com/civicrm/apachesolr_civiAttachments' => 'drupal-module',
-    'https://github.com/colemanw/webform_civicrm' => 'drupal-module',
-
     // WordPress Plugins
     // NOTE: There's a separate section for svn-based plugins.
     'https://github.com/civicrm/civicrm-demo-wp' => 'wp-plugin',
@@ -104,7 +99,6 @@ return function() {
     'https://github.com/christianwach/bp-groups-civicrm-sync' => 'wp-plugin',
     'https://github.com/christianwach/cli-tools-for-civicrm' => 'wp-plugin',
     'https://github.com/christianwach/civicrm-directory' => 'wp-plugin',
-    'https://develop.tadpole.cc/plugins/civicrm-gutenberg-blocks' => 'wp-plugin',
     'https://develop.tadpole.cc/plugins/civicrm-permissions-sync' => 'wp-plugin',
     'https://develop.tadpole.cc/plugins/civicrm-network-groups' => 'wp-plugin',
     'https://develop.tadpole.cc/plugins/civicrm-groups-sync' => 'wp-plugin',
@@ -144,9 +138,7 @@ return function() {
     'https://github.com/systopia/de.systopia.amazonbounceapi' => 'ext',
     'https://github.com/systopia/de.systopia.anonymiser' => 'ext',
     'https://github.com/systopia/de.systopia.contactsource' => 'ext',
-    'https://github.com/systopia/de.systopia.contract' => 'ext',
     'https://github.com/systopia/de.systopia.esr' => 'ext',
-    'https://github.com/systopia/de.systopia.gdprx' => 'ext',
     'https://github.com/systopia/de.systopia.loggingtools' => 'ext',
     'https://github.com/systopia/de.systopia.mailattachment' => 'ext',
     'https://github.com/systopia/de.systopia.mailingtools' => 'ext',
